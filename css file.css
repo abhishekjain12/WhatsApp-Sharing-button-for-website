@@ -1,0 +1,27 @@
+.whatsapp{
+  background-color:#25D366;
+  border-radius:50%;
+  height:65px;
+  width:65px;
+  color:#fff;
+  font-size:7px;
+  margin:9px;
+  line-height:5px;
+}
+
+.whatsapp i{
+  margin-top:4px;
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+}
+
+.whatsapp span{
+  font-size:9px
+}
+
+@media only screen and (min-width: 700px){ 
+  .whatsapp {
+    display: none !important;
+  }
+}
